@@ -1,0 +1,8 @@
+System.out.println("Will I ever be rich and famous?");
+        Queue<String> stringArrayDeque = new ArrayDeque<>();
+        stringArrayDeque.add("Yes");
+        stringArrayDeque.add("No");
+        stringArrayDeque.add("Maybe");
+        stringArrayDeque.add("Ask Again Later");
+
+        System.out.println(stringArrayDeque);

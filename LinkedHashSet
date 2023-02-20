@@ -1,0 +1,8 @@
+System.out.println("Will I ever be rich and famous?");
+        Set<String> stringHashSet = new LinkedHashSet<>();
+        stringHashSet.add("Yes");
+        stringHashSet.add("No");
+        stringHashSet.add("Maybe");
+        stringHashSet.add("Ask Again Later");
+
+        System.out.println(stringHashSet);

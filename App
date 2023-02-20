@@ -1,0 +1,16 @@
+public class App 
+{
+    public static void main( String[] args )
+    {
+
+        //Magic 8 ball
+        System.out.println("Will I ever be rich and famous?");
+        List<String> stringList = new ArrayList<>();
+        stringList.add("Yes");
+        stringList.add("No");
+        stringList.add("Maybe");
+        stringList.add("Ask Again Later");
+
+        System.out.println(stringList.get(3));
+    }
+}
